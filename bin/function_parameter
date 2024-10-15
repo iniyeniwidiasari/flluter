@@ -1,0 +1,13 @@
+void sayHello(String name, String Function(String) filter){
+    var filteredName = filter(name);
+
+    print('Hi $filteredName');
+}
+
+void main(){
+    sayHello('Yeni Widia Sari', (name){
+        return name.toUpperCase();
+    });
+
+    sayHello('Yeni Widia Sari', (String name) => name.toLowerCase());
+}
