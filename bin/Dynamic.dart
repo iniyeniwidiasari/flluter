@@ -6,5 +6,7 @@ void main() {
   print(variable);
 
   variable = 'Eko';
+  //
   print(variable);
+  print('aaa');
 }
